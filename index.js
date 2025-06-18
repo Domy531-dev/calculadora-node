@@ -1,4 +1,4 @@
-// index.js
+feature-divisão
 const divisao = require('./divisao');
 
 // Exemplos de divisão com positivos e negativos
@@ -14,4 +14,4 @@ const exemplos = [
 exemplos.forEach(({ a, b }) => {
   const resultado = divisao(a, b);
   console.log(`Divisão: ${a} / ${b} = ${resultado}`);
-});
+
