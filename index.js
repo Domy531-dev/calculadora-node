@@ -14,4 +14,4 @@ const exemplos = [
 exemplos.forEach(({ a, b }) => {
   const resultado = divisao(a, b);
   console.log(`Divisão: ${a} / ${b} = ${resultado}`);
-
+});
